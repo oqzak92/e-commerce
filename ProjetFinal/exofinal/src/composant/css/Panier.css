@@ -1,0 +1,69 @@
+/* Panier.css */
+.panier-popup {
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 100;
+}
+
+.panier-popup h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.panier-popup ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 200px;
+    /* Limite la hauteur à 200px */
+    overflow-y: auto;
+    /* Active le scroll vertical si nécessaire */
+}
+
+.panier-popup li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.cart-item-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.cart-item-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cart-item-details span {
+    font-size: 16px;
+    color: #555;
+}
+
+.panier-popup p {
+    text-align: center;
+    color: #777;
+    font-size: 16px;
+}
+
+.cart-total {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 18px;
+    color: #333;
+}
+
+.cart-total strong {
+    font-weight: bold;
+}
